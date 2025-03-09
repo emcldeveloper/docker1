@@ -1,13 +1,78 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Page</title>
+    <title>Fumigation and Cleanliness</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to My Simple Page</h1>
-    <p>This page is hosted on DigitalOcean with automation from Jenkins.</p>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Fumigation & Cleanliness</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#fumigation">Fumigation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cleanliness">Cleanliness</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="jumbotron jumbotron-fluid text-center bg-info text-white">
+        <div class="container">
+            <h1 class="display-4">Welcome to Fumigation & Cleanliness</h1>
+            <p class="lead">Learn about the importance of fumigation and cleanliness for a safe and healthy environment.</p>
+        </div>
+    </header>
+
+    <!-- Fumigation Section -->
+    <section id="fumigation" class="container my-5">
+        <h2 class="text-center">What is Fumigation?</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Fumigation is a process of disinfecting or exterminating pests using chemicals that vaporize and fill the environment. It is commonly used to control pest infestations in homes, businesses, and agricultural settings.</p>
+            </div>
+            <div class="col-md-6">
+                <p>Fumigation helps in getting rid of termites, bedbugs, rodents, and other pests that may cause health risks. It ensures a safe living and working environment by preventing diseases and infestations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cleanliness Section -->
+    <section id="cleanliness" class="container my-5">
+        <h2 class="text-center">The Importance of Cleanliness</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Cleanliness is essential for maintaining a healthy and hygienic environment. Regular cleaning helps reduce the spread of bacteria, viruses, and allergens that can cause illness.</p>
+            </div>
+            <div class="col-md-6">
+                <p>A clean space improves mental well-being, increases productivity, and contributes to a safer, more pleasant atmosphere for everyone in the household or workplace.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Fumigation & Cleanliness. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
 
